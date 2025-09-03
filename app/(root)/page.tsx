@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import SearchForm from "../components/SearchForm";
-import StartupCard from "../components/StartupCard";
+import SearchForm from "@/app/components/SearchForm";
+import StartupCard from "@/app/components/StartupCard";
 import { client } from "@/sanity/lib/client";
 import { STARTUPS_QUERY } from "@/sanity/lib/queries";
 
-import { StartupTypeCard } from "../components/StartupCard";
+import { StartupTypeCard } from "@/app/components/StartupCard";
 import { sanityFetch, SanityLive } from "@/sanity/lib/live";
 import { auth } from "@/auth";
 
